@@ -99,12 +99,12 @@ body{
 }
     .calculator .buttons #reset{
     background-color: #607ac7;
-    width: 130px;
+    width: 120px;
     color: white;
 }
 .calculator .buttons #equal{
     background-color: #f03131;
-    width: 130px;
+    width: 120px;
     color: white;
 }   
 .calculator .buttons #del{
