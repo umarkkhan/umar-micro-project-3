@@ -74,3 +74,41 @@ body{
     color: white;
     width: 100%;
 }
+@media only screen and (max-width: 600px) {
+ .container .calculator{
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+} 
+    .calculator .buttons input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 15px #465277 ,5px 5px 15px #465277;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    
+}
+    .calculator .buttons #reset{
+    background-color: #607ac7;
+    width: 150px;
+    color: white;
+}
+.calculator .buttons #equal{
+    background-color: #f03131;
+    width: 150px;
+    color: white;
+}   
+.calculator .buttons #del{
+    background-color: #607ac7;
+    color: white;
+} 
+}
